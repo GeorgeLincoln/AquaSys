@@ -1,0 +1,3 @@
+C:\Users\Alunos\Downloads\Aqua\ClassLibraries\obj\Debug\netstandard2.0\ClassLibraries.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Downloads\Aqua\ClassLibraries\obj\Debug\netstandard2.0\ClassLibraries.AssemblyInfoInputs.cache
+C:\Users\Alunos\Downloads\Aqua\ClassLibraries\obj\Debug\netstandard2.0\ClassLibraries.AssemblyInfo.cs
