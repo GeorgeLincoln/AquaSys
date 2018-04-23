@@ -12,7 +12,7 @@ namespace ClassLibraries.Models
         public Endereco Endereco { get; set; }
         public string TipoDeProducao { get; set; }
         public string TipoDePeixe { get; set; }
-        public Sensores Sensores { get; set; }
+        public Sensor Sensor { get; set; }
 
     }
 }

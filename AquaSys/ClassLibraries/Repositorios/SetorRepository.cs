@@ -1,15 +1,15 @@
 using ClassLibraries.Models;
 using ClassLibraries.Repositories;
-using Infra.Data.Context;
+using ClassLibraries.Data.Context;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace ClassLibraries.Repositories
 {
-    public class ConvenioRepository : RepositoryBase<Convenio>, IConvenioRepository
+    public class SetorRepository : RepositoryBase<Setor>, IConvenioRepository
     {
-        public ConvenioRepository(DataContext context, bool saveChanges = true) : base(context, saveChanges)
+        public SetorRepository(DataContext context, bool saveChanges = true) : base(context, saveChanges)
         {
         }
     }

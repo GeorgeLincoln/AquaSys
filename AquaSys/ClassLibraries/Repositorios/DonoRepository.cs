@@ -1,15 +1,15 @@
 using ClassLibraries.Models;
-using Domonio.Repositories;
-using Infra.Data.Context;
+using ClassLibraries.Repositories;
+using ClassLibraries.Data.Context;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace ClassLibraries.Repositories
 {
-    public class CidadeRepository : RepositoryBase<Cidade>, ICidadeRepository
+    public class DonoRepository : RepositoryBase<Dono>, IDonoRepository
     {
-        public CidadeRepository(DataContext context, bool saveChanges = true) : base(context, saveChanges)
+        public DonoRepository(DataContext context, bool saveChanges = true) : base(context, saveChanges)
         {
         }
     }

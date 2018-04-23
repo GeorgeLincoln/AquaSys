@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ClassLibraries.Models;
 
 
 namespace ClassLibraries.Models
 {
-    public class Trabalhador : IEntity
+    public class Trabalhador
     {
-         public TrabalhadorSetor()
+         public Trabalhador()
          {
              TrabalhadorSetores = new List<TrabalhadorSetor>();
 

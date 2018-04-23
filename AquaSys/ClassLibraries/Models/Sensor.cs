@@ -12,6 +12,7 @@ namespace ClassLibraries.Models
         public int Temperatura { get; set; }
         public int Oxigenio { get; set; }
         public int PH { get; set; }
+        public Viveiro ViveiroId { get; set; }
         public Viveiro Viveiro { get; set; }
     }
 }
