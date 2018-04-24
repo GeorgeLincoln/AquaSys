@@ -12,7 +12,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
 using ClassLibraries.Models;
 using ClassLibraries.Data.Context;
-using ClassLibraries.Repositories;
+using ClassLibraries.Repositorios;
 
 
 namespace WebApi

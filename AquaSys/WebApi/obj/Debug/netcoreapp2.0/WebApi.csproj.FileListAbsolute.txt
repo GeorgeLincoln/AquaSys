@@ -1,0 +1,3 @@
+/home/android/Documentos/AquaSys-master/AquaSys/WebApi/obj/Debug/netcoreapp2.0/WebApi.csproj.CoreCompileInputs.cache
+/home/android/Documentos/AquaSys-master/AquaSys/WebApi/obj/Debug/netcoreapp2.0/WebApi.AssemblyInfoInputs.cache
+/home/android/Documentos/AquaSys-master/AquaSys/WebApi/obj/Debug/netcoreapp2.0/WebApi.AssemblyInfo.cs
