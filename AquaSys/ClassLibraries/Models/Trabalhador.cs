@@ -7,7 +7,7 @@ using ClassLibraries.Models;
 
 namespace ClassLibraries.Models
 {
-    public class Trabalhador
+    public class Trabalhador : IEntity
     {
          public Trabalhador()
          {

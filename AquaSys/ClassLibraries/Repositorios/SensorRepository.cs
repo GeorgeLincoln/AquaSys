@@ -1,15 +1,15 @@
 using ClassLibraries.Models;
-using ClassLibraries.Repositories;
+using ClassLibraries.Repositorios;
 using ClassLibraries.Data.Context;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ClassLibraries.Repositories
+namespace ClassLibraries.Repositorios
 {
-    public class PacienteConvenioRepository : RepositoryBase<PacienteConvenio>, IPacienteConvenioRepository
+    public class SensorRepository : RepositoryBase<Sensor>, ISensorRepository
     {
-        public PacienteConvenioRepository(DataContext context, bool saveChanges = true) : base(context, saveChanges)
+        public SensorRepository(DataContext context, bool saveChanges = true) : base(context, saveChanges)
         {
         }
     }

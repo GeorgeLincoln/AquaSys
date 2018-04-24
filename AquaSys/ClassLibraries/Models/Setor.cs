@@ -14,10 +14,10 @@ namespace ClassLibraries.Models
         }
         public int Id { get; set; }
 
-        public int IdDespesca { get; set; }
+        public int DespescaId { get; set; }
         public Despesca Despesca { get; set; }
 
-        public int IdManeijo { get; set; }
+        public int ManeijoId { get; set; }
         public Maneijo Maneijo { get; set; }
         public string Adm { get; set; }
 

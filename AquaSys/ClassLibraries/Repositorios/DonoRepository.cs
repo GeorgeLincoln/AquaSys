@@ -1,11 +1,11 @@
 using ClassLibraries.Models;
-using ClassLibraries.Repositories;
-using ClassLibraries.Data.Context;
+using ClassLibraries.Repositorios;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using ClassLibraries.Data.Context;
 
-namespace ClassLibraries.Repositories
+namespace ClassLibraries.Repositorios
 {
     public class DonoRepository : RepositoryBase<Dono>, IDonoRepository
     {

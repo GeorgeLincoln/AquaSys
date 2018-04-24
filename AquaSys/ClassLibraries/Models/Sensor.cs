@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
+using ClassLibraries.Models;
 
 namespace ClassLibraries.Models
 {
@@ -12,7 +12,7 @@ namespace ClassLibraries.Models
         public int Temperatura { get; set; }
         public int Oxigenio { get; set; }
         public int PH { get; set; }
-        public Viveiro ViveiroId { get; set; }
-        public Viveiro Viveiro { get; set; }
+        public int ViveiroId { get; set; }
+        public virtual Viveiro Viveiro { get; set; }
     }
 }

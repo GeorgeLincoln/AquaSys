@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibraries.Models
 {
-    public class TrabalhadorSetor
+    public class TrabalhadorSetor : IEntity
     {
         public int Id { get; set; }
         public int TrabalhadorId { get; set; }

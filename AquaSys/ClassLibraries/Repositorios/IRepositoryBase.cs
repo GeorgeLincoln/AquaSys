@@ -1,9 +1,10 @@
 ﻿using System.Collections.Generic;
-using ExemploLibrary.Entidades;
+using ClassLibraries.Data.Context;
+using ClassLibraries.Models;
 
-namespace ExemploLibrary.Repositorys
+namespace ClassLibraries.Repositorios
 {
-    public interface IRepositoryBase<T> where T : class, IEntidade
+    public interface IRepositoryBase<T> where T : class, IEntity
     {
         void Add(T entidade);
         IEnumerable<T> GetAll();

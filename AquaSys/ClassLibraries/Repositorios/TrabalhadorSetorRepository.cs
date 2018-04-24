@@ -1,15 +1,15 @@
 using ClassLibraries.Models;
-using ClassLibraries.Repositories;
+using ClassLibraries.Repositorios;
 using ClassLibraries.Data.Context;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ClassLibraries.Repositories
+namespace ClassLibraries.Repositorios
 {
-    public class ExameRepository : RepositoryBase<Exame>, IExameRepository
+    public class TrabalhadorSetorRepository : RepositoryBase<TrabalhadorSetor>, ITrabalhadorSetorRepository
     {
-        public ExameRepository(DataContext context, bool saveChanges = true) : base(context, saveChanges)
+        public TrabalhadorSetorRepository(DataContext context, bool saveChanges = true) : base(context, saveChanges)
         {
         }
     }

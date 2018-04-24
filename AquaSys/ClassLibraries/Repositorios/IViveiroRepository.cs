@@ -1,13 +1,13 @@
 
-    using ClassLibraries.Models;
-    using System;
-    using System.Collections.Generic;
-    using System.Text;
+using ClassLibraries.Models;
+using System;
+using System.Collections.Generic;
+using System.Text;
 
-    namespace ClassLibraries.Repositories
+namespace ClassLibraries.Repositorios
+{
+    public interface IViveiroRepository : IRepositoryBase<Viveiro>
     {
-        public interface IViveiroRepository : IRepositoryBase<Viveiro>
-        {
-        }
     }
-            
+}
+        

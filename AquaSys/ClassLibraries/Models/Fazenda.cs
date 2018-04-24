@@ -4,7 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using ClassLibraries.Models;
 
-
 namespace ClassLibraries.Models
 {
     public class Fazenda
@@ -13,10 +12,10 @@ namespace ClassLibraries.Models
          public float Tamanho { get; set; }
          public int QtdeViveiros { get; set; }
 
-         public Endereco EnderecoId { get; set; }
-         public Dono DonoId { get; set; }
-         public Trabalhador TrabalhadorId { get; set; }
-         public Viveiro ViveiroId { get; set; }
+         public int EnderecoId { get; set; }
+         public int DonoId { get; set; }
+         public int TrabalhadorId { get; set; }
+         public int ViveiroId { get; set; }
 
          public Endereco Endereco { get; set; }
          public Dono Dono { get; set; }         

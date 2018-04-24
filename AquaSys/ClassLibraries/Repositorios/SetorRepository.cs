@@ -1,13 +1,13 @@
 using ClassLibraries.Models;
-using ClassLibraries.Repositories;
+using ClassLibraries.Repositorios;
 using ClassLibraries.Data.Context;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ClassLibraries.Repositories
+namespace ClassLibraries.Repositorios
 {
-    public class SetorRepository : RepositoryBase<Setor>, IConvenioRepository
+    public class SetorRepository : RepositoryBase<Setor>, ISetorRepository
     {
         public SetorRepository(DataContext context, bool saveChanges = true) : base(context, saveChanges)
         {

@@ -3,12 +3,14 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using ClassLibraries.Models;
 
-namespace ClassLibraries.Contextos
+namespace ClassLibraries.Data.Context
 {
     public class DataContext : DbContext
     {
-        public IConfigurationRoot Configuration { get; set; }
-
+        public DataContext(DbContextOptions<DataContext> options)
+         : base(options) {}
+        public DataContext()
+        {}
         public DbSet<Despesca> Despescas { get; set; }
         public DbSet<Dono> Donos { get; set; }
         public DbSet<Endereco> Enderecos { get; set; }
@@ -30,7 +32,7 @@ namespace ClassLibraries.Contextos
                 .Build();
 
             // Define a base de dados a ser usada
-            var cnn = config.GetConnectionString("store.db");
+            var cnn = config.GetConnectionString("StoreDB");
             optionsBuilder.UseSqlServer(cnn);
         }
 

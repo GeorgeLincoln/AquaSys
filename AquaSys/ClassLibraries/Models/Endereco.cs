@@ -2,20 +2,20 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ClassLibraries.Models;
 
 
 namespace ClassLibraries.Models
 {
     public class Endereco : IEntity
     {
-        public Endereco()
-        {
-            Pessoas = new HashSet<Pessoa>();
-        }
+
         public int Id { get; set; }
         public string Rua { get; set; }
         public string Cidade { get; set; }
         public string Estado { get; set; }
-        public ICollection<Pessoa> Pessoas { get; set; }
+        public int EnderecoId { get; set; }
+        public Endereco Endereco { get; set; }
+        
     }
 }

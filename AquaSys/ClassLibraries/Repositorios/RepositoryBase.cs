@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-//using ExemploLibrary.Contextos;
+using ClassLibraries.Data.Context;
 using ClassLibraries.Models;
 
-namespace ExemploLibrary.Repositorys
+namespace ClassLibraries.Repositorios
 {
-    public abstract class RepositoryBase<T> : IRepositoryBase<T> where T : class, IEntidade
+    public abstract class RepositoryBase<T> : IRepositoryBase<T> where T : class, IEntity
     {
         private readonly DataContext _context;
 
