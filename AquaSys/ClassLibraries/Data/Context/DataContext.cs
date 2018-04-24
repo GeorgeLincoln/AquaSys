@@ -33,7 +33,7 @@ namespace ClassLibraries.Data.Context
 
             // Define a base de dados a ser usada
             var cnn = config.GetConnectionString("StoreDB");
-            optionsBuilder.UseSqlServer(cnn);
+            optionsBuilder.UseSqlite(cnn);
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

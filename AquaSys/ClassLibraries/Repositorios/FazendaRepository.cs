@@ -7,7 +7,7 @@ using ClassLibraries.Data.Context;
 
 namespace ClassLibraries.Repositorios
 {
-    public class FazendaRopository: RepositoryBase<Fazenda>, IFazendaRepository
+    public class FazendaRepository: RepositoryBase<Fazenda>, IFazendaRepository
     {
         public FazendaRepository(DataContext context, bool saveChanges = true) : base(context, saveChanges)
         {

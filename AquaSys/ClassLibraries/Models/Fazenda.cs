@@ -6,7 +6,7 @@ using ClassLibraries.Models;
 
 namespace ClassLibraries.Models
 {
-    public class Fazenda
+    public class Fazenda: IEntity
     {
          public int Id { get; set; }
          public float Tamanho { get; set; }

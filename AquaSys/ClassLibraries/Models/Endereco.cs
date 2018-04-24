@@ -14,8 +14,6 @@ namespace ClassLibraries.Models
         public string Rua { get; set; }
         public string Cidade { get; set; }
         public string Estado { get; set; }
-        public int EnderecoId { get; set; }
-        public Endereco Endereco { get; set; }
         
     }
 }
