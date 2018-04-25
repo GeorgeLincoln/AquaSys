@@ -10,7 +10,6 @@ namespace ClassLibraries.Services
     {
         IEnumerable<T> GetAll();
         T Find(int id);
-        //void Create(T entity, bool unSaveChanges);
         void Add(T etity);
         void Update(T entity, int id);
         void Remove(int id);
